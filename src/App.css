@@ -1,0 +1,62 @@
+.maindiv {
+  font-family: Arial, sans-serif;
+  margin: 20px auto;
+  max-width: 1000px;
+  padding: 20px;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  box-shadow: 0 0 10px white;
+  background-color: whitesmoke;
+}
+@media screen and (max-width: 425px) {
+  .maindiv {
+    width: 100%;
+  }
+}
+.allinputs[type="text"] {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 12px;
+  border-radius: 4px;
+  border: 1px solid black !important;
+  cursor: pointer;
+  background-color: black !important;
+  margin: 5px;
+  color: white;
+}
+.submitbutton {
+  padding: 10px 0px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+th,
+td {
+  padding: 8px;
+}
+th {
+  border: 1px solid white;
+}
+label {
+  font-weight: bold;
+  color: black !important;
+  padding: 5px;
+}
+
+th {
+  background-color: black;
+  color: white;
+}
